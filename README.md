@@ -38,12 +38,12 @@ kubeconfig: Configured
 ```
 ## Utilisation du fichier build.gradle
 
-1) Se placer dans le dossier cloner 
+__1) Se placer dans le dossier cloner__ 
 
 ```
 cd tp_ci_cd
 ```
-2) Builder votre image grâce au Dockerfile présent dans la racine
+__2) Builder votre image grâce au Dockerfile présent dans la racine__
 
 ```
 docker build -t gradle_tp5 .
@@ -55,7 +55,7 @@ Il finit par lancer les tâches contenues dans build.gradle. Au final, vous aure
 
 Le build.gradle permet aussi si nécessaire de nettoyer des dossiers / fichiers inutiles et d’installer les dépendances de l’application.
 
-3) Accès au conteneur grâce à l'image buildée
+__3) Accès au conteneur grâce à l'image buildée__
 
 Si besoin, vous pouvez accéder au conteneur depuis votre terminal : 
 ```
@@ -65,12 +65,12 @@ docker run -it <id_conteneur> bash
 
 ## Utilisation du Jenkinsfile
 
-1) Lancer jenkins grâce au docker-compose
+__1) Lancer jenkins grâce au docker-compose__
 
 ```
 docker-compose up -d
 ```
-2) Il est nécessaire de configurer jenkins, pour celà :
+__2) Il est nécessaire de configurer jenkins, pour celà :__
 - rendez-vous à l'adresse suivante :
   http//localhost:8098
 - Sign-in
@@ -91,7 +91,7 @@ Passer à l'étape suivante.
 - Sauvegarder et finir
 - Vous êtes prêt à utiliser votre jenkins :)
 
-3) Installer le plug-in Gradle
+__3) Installer le plug-in Gradle__
 Sur la page internet de jenkins effectuer les étapes suivantes :
 - Dans Administrer Jenkins 
 - Configuration globale des outils on configure l'installation de gradle 
@@ -101,7 +101,7 @@ Sur la page internet de jenkins effectuer les étapes suivantes :
 - Sauvegarder
 
 
-4) Créer un projet pipeline
+__4) Créer un projet pipeline__
 - Retourner au Dashboard
 - Créer un job pipeline et lui donner un nom et valider 
 - Cliquer sur l'ongler pipeline 
@@ -113,7 +113,7 @@ Sur la page internet de jenkins effectuer les étapes suivantes :
 ```
 - Sauvegarder
 
-5) Lancer le build avec Build Now
+__5) Lancer le build avec Build Now__
 
 
 
