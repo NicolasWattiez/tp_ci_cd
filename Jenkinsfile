@@ -25,7 +25,7 @@ pipeline {
       publishHTML (target : [allowMissing: false,
       alwaysLinkToLastBuild: true,
       keepAll: true,
-      reportDir: 'reports',
+      reportDir: './',
       reportFiles: 'pylint.html',
       reportName: 'My Reports',
       reportTitles: 'The Report'])
