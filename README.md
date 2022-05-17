@@ -122,7 +122,7 @@ __5) Créer un projet pipeline__
 ```
 - Sauvegarder
 
-__5) Lancer le build avec Build Now__
+__6) Lancer le build avec Build Now__
 
 
 
