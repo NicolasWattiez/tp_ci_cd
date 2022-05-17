@@ -56,9 +56,8 @@ cd tp_ci_cd
 __2) Builder votre image grâce au Dockerfile présent dans la racine__
 
 ```
-docker build -t gradle_tp5 .
+docker build -t <container_name> .
 ```
-*où gradle_tp5 est le nom que vous souhaitez donner à votre image, . signifie que vous utilisez votre répertoire courrant pour aller  chercher le Dockerfile*
 
 NB: Le Dockerfile utilisé ici contient les installations nécessaires à l'exécution du build.gradle. 
 Il finit par lancer les tâches contenues dans build.gradle. Au final, vous aurez construit une archive zip contenant l’intégralité des fichiers nécessaires au focntionnement de l’application. 
