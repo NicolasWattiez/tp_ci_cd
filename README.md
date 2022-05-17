@@ -13,12 +13,11 @@ L’utilisateur peut réaliser des actions sur cette base de donnée telle que :
 - Ajouter une machine
 
 Les fichiers Dockerfile se stuant à la racine (pour le build.gradle) et dans le dossier jenkins (pour le Jenkinsfile) ont servis a installer le nécessaire pour faire fonctionner les fichiers build.gradle et le Jenkinsfile. L'utilisation de ces fichiers sera détaillé ci-dessous.
+
 ## Pré-requis
 
 Avoir installer les outils ci-dessous:
  - Docker
- - Minikube
- - Kubectl
 
 Dans un second temps il vous faudra récupérer le dossier git qui se trouve à l'adresse suivante : 
 https://github.com/NicolasWattiez/tp_ci_cd
