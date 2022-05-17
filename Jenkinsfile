@@ -3,7 +3,9 @@ pipeline {
    stages {
     stage('clone'){
       steps {
-        git url: 'https://github.com/NicolasWattiez/tp_ci_cd'
+        git branch: 'main',
+        url: 'https://github.com/NicolasWattiez/tp_ci_cd'
+        
       }
     }
 	  stage ('Build') {
@@ -18,4 +20,3 @@ pipeline {
 	   }
    }
 }
-
