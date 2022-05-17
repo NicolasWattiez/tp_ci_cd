@@ -98,10 +98,19 @@ Sur la page internet de jenkins effectuer les étapes suivantes :
 - Descendre jusqu'à la partie Gradle 
 - Cliquer sur Add Gradle
 - Donner lui un nom (ex: gradle)
+- Cocher la case installation automatique
 - Sauvegarder
 
+__4) Installer le plug-in HTMLpublisher__
+Sur la page internet de jenkins effectuer les étapes suivantes :
+- Dans Administrer Jenkins
+- Aller dans Manage plugins
+- Cliquer sur "Avaible"
+- Taper "HTML Publisher" dans la barre de recherche
+- Cocher la case du plugin et cliquer sur "Install without restart" à la fin de page
 
-__4) Créer un projet pipeline__
+
+__5) Créer un projet pipeline__
 - Retourner au Dashboard
 - Créer un job pipeline et lui donner un nom puis valider 
 - Cliquer sur l'onglet pipeline 
@@ -113,7 +122,7 @@ __4) Créer un projet pipeline__
 ```
 - Sauvegarder
 
-__5) Lancer le build avec Build Now__
+__6) Lancer le build avec Build Now__
 
 
 
