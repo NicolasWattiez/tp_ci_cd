@@ -1,8 +1,5 @@
-// Powered by Infostretch 
-
-timestamps {
-
-node () {
+pipeline {
+ agent any
 	stage ('tp5_free - Build - Purge') {
     tools {
       gradle 'gradle'
