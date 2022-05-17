@@ -10,7 +10,7 @@ Avoir installer les outils ci-dessous:
  - Minikube
  - Kubectl
 
-Dans un second temps il vous faudra récupérer le dossiet git qui se trove à l'adresse suivante : 
+Dans un second temps il vous faudra récupérer le dossier git qui se trove à l'adresse suivante : 
 https://github.com/NicolasWattiez/tp_ci_cd
 
 Pour le cloner sur votre machine, ouvrez un terminal et effectuez la commande suivante : 
