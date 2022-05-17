@@ -10,6 +10,11 @@ task dependances(type: Exec){
     ext.output = { return standardOutput.toString() }
 }
 
+task quality(type: Exec){
+    executable 'sh'
+    args '-c', 'python3 -m pylint ./src'
+}
+
 task packageDistribution(type: Zip){
     from ('app') into ('.')
     archiveFileName = 'app_python.zip'

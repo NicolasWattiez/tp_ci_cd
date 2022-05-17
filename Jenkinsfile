@@ -15,6 +15,7 @@ pipeline {
       steps {
         sh 'gradle purge'
         sh 'gradle dependencies'
+        sh 'gradle quality'
         sh 'gradle packageDistribution'
       }
 	   }
