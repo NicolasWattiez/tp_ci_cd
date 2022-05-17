@@ -6,7 +6,7 @@ pipeline {
         git url: 'https://github.com/NicolasWattiez/tp_ci_cd'
       }
     }
-	  stage ('tp5_free - Build - Purge') {
+	  stage ('Build') {
       tools {
         gradle 'gradle'
       }
@@ -15,6 +15,7 @@ pipeline {
         sh 'gradle dependencies'
         sh 'gradle packageDistribution'
       }
-	  }
+	   }
+   }
 }
 
