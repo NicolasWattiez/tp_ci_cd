@@ -12,7 +12,7 @@ task dependances(type: Exec){
 
 task quality(type: Exec){
     executable 'sh'
-    args '-c', 'pylint src -f json | pylint-json2html -o pylint.html'
+    args '-c', 'pylint src -f json | pylint-json2html -o reports/pylint.html'
 }
 
 task packageDistribution(type: Zip){
