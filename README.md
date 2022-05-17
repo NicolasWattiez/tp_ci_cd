@@ -103,8 +103,8 @@ Sur la page internet de jenkins effectuer les étapes suivantes :
 
 __4) Créer un projet pipeline__
 - Retourner au Dashboard
-- Créer un job pipeline et lui donner un nom et valider 
-- Cliquer sur l'ongler pipeline 
+- Créer un job pipeline et lui donner un nom puis valider 
+- Cliquer sur l'onglet pipeline 
 - Choisir "Pipeline script from SCM" pour la définition 
 - Choisir 'Git' pour SCM et lui donner l'adresse du dépôt (https://github.com/NicolasWattiez/tp_ci_cd)
 - Dans 'Branches to build' écrire 
