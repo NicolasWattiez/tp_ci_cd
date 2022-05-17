@@ -3,10 +3,6 @@
 timestamps {
 
 node () {
-
-	stage ('tp5_free - Checkout') {
- 	 checkout([$class: 'GitSCM', branches: [[name: '*/main']], doGenerateSubmoduleConfigurations: false, extensions: [], submoduleCfg: [], userRemoteConfigs: [[credentialsId: '', url: 'https://github.com/NicolasWattiez/tp_ci_cd']]]) 
-	}
 	stage ('tp5_free - Build - Purge') {
         script {
             def version = sh (
