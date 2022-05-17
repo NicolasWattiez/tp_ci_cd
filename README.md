@@ -7,4 +7,3 @@ docker build --tag gradle_tp5 .
 
 
 
-
