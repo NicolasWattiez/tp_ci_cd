@@ -27,25 +27,7 @@ Pour le cloner sur votre machine, ouvrir un terminal et effectuer la commande su
 ```
 git clone git@github.com:NicolasWattiez/tp_ci_cd.git
 ```
-## Démarrer minikube
 
-```
-minikube start
-```
-
-Vérifier le statut de minikube
-
-```
-minikube status
-```
-Cette commande doit vous afficher le message suivant si minikube est bien démarré
-
-```
-host: Running
-kubelet: Running
-apiserver: Running
-kubeconfig: Configured
-```
 ## Utilisation du fichier build.gradle
 
 __1) Se placer dans le dossier cloner__ 
